@@ -1,0 +1,4 @@
+.button {
+  background: var(--beauty-landing-2-2, #2b7fff);
+  border-radius: 32px;
+}
