@@ -1,4 +1,49 @@
+:root {
+  --color-brand: #011c44;
+  --color-brand-blue: #2b7fff;
+  --color-primary-white: #fff;
+}
+
+/* Base */
+body {
+  color: var(--color-brand);
+}
+ul {
+  list-style-type: none;
+}
+
+/* Button */
 .button {
-  background: var(--beauty-landing-2-2, #2b7fff);
+  color: #ffffff;
+  background: var(--color-brand-blue);
   border-radius: 32px;
+  border: 2px solid var(--color-brand-blue);
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-brand);
+  background-color: transparent;
+}
+
+/* Link */
+.link {
+  color: var(--color-brand);
+}
+
+.link:hover {
+  color: var(--color-brand-blue);
+}
+
+/* Hero section */
+.hero-title {
+  color: var(--color-brand);
+}
+
+.hero-title .accent {
+  color: var(--color-brand-blue);
+}
+
+.section-title .accent {
+  color: var(--color-brand-blue);
 }
